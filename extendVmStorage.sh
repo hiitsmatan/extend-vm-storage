@@ -24,7 +24,7 @@ complete_func(){
 }
 
 check_free_space
-if [ "$freespace" -ne "0" ]; then
+if [ "$freespace" != "0" ]; then
     echo "-----------------------------------"
     echo "You have " $freespace " free space to extend"
     echo "-----------------------------------"
